@@ -2,6 +2,7 @@ package org.avp.client.model.entities.living;
 
 import org.avp.AliensVsPredator;
 import org.avp.entities.living.species.xenomorphs.EntityMatriarch;
+import org.avp.entities.living.species.xenomorphs.EntityEmpress;
 import org.lwjgl.opengl.GL11;
 
 import com.asx.mdx.lib.client.util.OpenGL;
