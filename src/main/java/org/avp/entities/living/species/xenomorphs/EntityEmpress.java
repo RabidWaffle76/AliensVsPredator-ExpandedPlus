@@ -56,9 +56,9 @@ public class EntityEmpress extends SpeciesXenomorph implements IMob
     public EntityEmpress(World world)
     {
         super(world);
-        this.setSize(2.0F, 5.0F);
+        this.setSize(4.0F, 12.0F);
         this.growingOvipositor = false;
-        this.experienceValue = 40000;
+        this.experienceValue = 120000;
         this.jumpMovementFactor = 0.2F;
         this.hurtResistantTime = 0;
         this.ignoreFrustumCheck = true;
@@ -87,7 +87,7 @@ public class EntityEmpress extends SpeciesXenomorph implements IMob
     protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(300.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(1200.0D);
         this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.400000238418579D);
         this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(8.0D);
         this.getEntityAttribute(SharedMonsterAttributes.KNOCKBACK_RESISTANCE).setBaseValue(1F);
